@@ -3,66 +3,109 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rajeev Srikar Medicharla | Portfolio</title>
+    <title>Rajeev Srikar Medicharla | Quantum Nanofabrication Engineer</title>
     <meta
       name="description"
-      content="Personal portfolio of Rajeev Srikar Medicharla - process engineering, research, and projects."
+      content="Rajeev Srikar Medicharla, quantum nanofabrication engineer at Microsoft Quantum: e-beam lithography, thin-film deposition, liftoff and metrology."
     />
+
+    <!-- Link previews (LinkedIn, Slack, email) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rajivsrikar2001-creator.github.io/Portfolio/" />
+    <meta property="og:title" content="Rajeev Srikar Medicharla | Quantum Nanofabrication Engineer" />
+    <meta
+      property="og:description"
+      content="Nanofabrication engineer at Microsoft Quantum: e-beam lithography, thin-film deposition, liftoff and metrology."
+    />
+    <meta property="og:image" content="https://rajivsrikar2001-creator.github.io/Portfolio/assets/og-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=3" />
+    <link rel="stylesheet" href="styles.css?v=4" />
+    <script>document.documentElement.classList.add('js');</script>
   </head>
   <body>
-    <div class="ambient ambient-a" aria-hidden="true"></div>
-    <div class="ambient ambient-b" aria-hidden="true"></div>
+    <div class="grid-bg" aria-hidden="true"></div>
 
     <header class="site-header">
-      <a class="logo" href="#home">Rajeev Srikar Medicharla</a>
+      <a class="logo" href="#home"><span class="logo-mark" aria-hidden="true">RM</span>Rajeev Srikar Medicharla</a>
       <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">Menu</button>
       <nav class="site-nav" id="site-nav">
         <a href="#about">About</a>
         <a href="#work">Experience</a>
+        <a href="#skills">Tools</a>
         <a href="#education">Education</a>
         <a href="#publications">Publications</a>
-        <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main id="home">
+      <!-- ============================== HERO ============================== -->
       <section class="hero section reveal">
         <div class="hero-grid">
           <div>
             <p class="eyebrow">Quantum Nanofabrication Engineer · Microsoft Quantum</p>
-            <h1>
-              I develop fabrication processes for <span>quantum devices</span>.
-            </h1>
+            <h1>I develop fabrication processes for <span>quantum devices</span>.</h1>
             <p class="hero-copy">
               Nanofabrication engineer at Microsoft Quantum, working in photolithography, thin-film and atomic layer
               deposition, etching and metrology.
             </p>
             <div class="hero-actions">
-              <a class="btn btn-primary" href="#work">See Projects</a>
-              <a class="btn btn-ghost" href="#contact">Get In Touch</a>
-              <a class="btn btn-ghost" href="Rajeev_Medicharla_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+              <a class="btn btn-primary" href="#work">See Experience</a>
+              <a class="btn btn-yellow" href="Rajeev_Medicharla_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+              <a class="btn" href="#contact">Get In Touch</a>
             </div>
           </div>
-          <aside class="hero-visual">
-            <!-- REPLACE IMAGE: Put your photo in this project folder (example: assets/my-photo.jpg), then change src below. -->
-            <!-- RECOMMENDED SIZE: Around 900x1100px (portrait) for best crop quality. -->
-            <img
-              src="Rajeev.jpeg"
-              alt="Rajeev Srikar Medicharla profile photo"
-            />
-            <!-- <p class="hero-visual-note">Replace with your own profile photo</p> -->
-          </aside>
+          <figure class="hero-visual" style="margin: 0">
+            <img src="Rajeev.jpeg" alt="Rajeev Srikar Medicharla" />
+            <figcaption><span>R. S. Medicharla</span><span>West Lafayette, IN</span></figcaption>
+          </figure>
         </div>
+
+        <div class="facts">
+          <div class="fact">
+            <p class="fact-value">88%</p>
+            <p class="fact-label">Cut in plasma-separation cycle time (IIT Kharagpur)</p>
+          </div>
+          <div class="fact">
+            <p class="fact-value">50%</p>
+            <p class="fact-label">Fewer experiments using DOE (Purdue)</p>
+          </div>
+          <div class="fact">
+            <p class="fact-value">10 µm</p>
+            <p class="fact-label">Photolithography features (CeNSE, IISc)</p>
+          </div>
+          <div class="fact">
+            <p class="fact-value">1</p>
+            <p class="fact-label">Peer-reviewed paper, <em>Analytical Chemistry</em></p>
+          </div>
+        </div>
+        <ul class="tech-line" aria-label="Core techniques">
+          <li class="on">E-beam lithography</li>
+          <li class="on">Thin-film deposition</li>
+          <li>Solvent liftoff</li>
+          <li>ALD</li>
+          <li>Sputtering</li>
+          <li>SEM</li>
+          <li>AFM</li>
+          <li>Ellipsometry</li>
+          <li>Profilometry</li>
+        </ul>
       </section>
 
+      <!-- ============================== ABOUT ============================== -->
       <section id="about" class="section split reveal">
         <div>
           <p class="eyebrow">About</p>
@@ -77,167 +120,264 @@
             problem in device fabrication too.
           </p>
         </div>
-        <aside class="profile-card">
-          <p class="stat-label">Currently</p>
-          <p class="stat-value">Quantum Nanofabrication Engineer, Microsoft Quantum</p>
-          <p class="stat-label">Location</p>
-          <p class="stat-value">West Lafayette, Indiana</p>
-          <p class="stat-label">Process areas</p>
-          <p class="stat-value">Photolithography, thin-film deposition, ALD, etching, metrology</p>
-        </aside>
+        <dl class="spec">
+          <div><dt>Currently</dt><dd>Quantum Nanofabrication Engineer, Microsoft Quantum</dd></div>
+          <div><dt>Based in</dt><dd>West Lafayette, Indiana</dd></div>
+          <div><dt>Process areas</dt><dd>Lithography, thin-film deposition, liftoff, metrology</dd></div>
+          <div><dt>Certification</dt><dd>Intel Semiconductor Fabrication 101</dd></div>
+        </dl>
       </section>
 
+      <!-- ============================== EXPERIENCE ============================== -->
       <section id="work" class="section reveal">
-        <div class="section-head">
-          <p class="eyebrow">Work Experience</p>
-          <h2>Experience</h2>
-        </div>
-        <div class="project-list">
-          <article class="card project-card">
-            <div class="card-head">
-              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=128" alt="Microsoft logo" loading="lazy" onerror="this.remove()" />
-              <div>
-                <h3>Quantum Nanofabrication Engineer</h3>
-                <p class="project-meta"><strong>Microsoft Quantum</strong> · Contract through Kforce Inc. · Oct 2026 - Present · West Lafayette, Indiana</p>
+        <p class="eyebrow">Work Experience</p>
+        <h2>Experience</h2>
+        <div class="exp-layout">
+          <div class="stack-wrap">
+            <p class="stack-title">Process stack</p>
+            <nav class="stack" aria-label="Career overview">
+              <a class="layer l-top" href="#exp-ms"><b>Microsoft Quantum</b><span>2026</span></a>
+              <a class="layer l2" href="#exp-purdue"><b>Purdue · P&amp;G research</b><span>2025</span></a>
+              <a class="layer l3" href="#education"><b>Purdue · M.S.</b><span>2024</span></a>
+              <a class="layer l4" href="#exp-iisc"><b>IISc · CeNSE</b><span>2023</span></a>
+              <a class="layer l5" href="#exp-iit"><b>IIT Kharagpur</b><span>2022</span></a>
+              <a class="layer l6" href="#exp-ucla"><b>UCLA</b><span>2021</span></a>
+              <a class="layer substrate" href="#education"><b>BITS Pilani · B.E.</b><span>2018</span></a>
+            </nav>
+            <p class="stack-note">Each layer is a stage of my career. Click one to jump to it.</p>
+          </div>
+
+          <div class="traveler-list">
+            <article class="traveler current" id="exp-ms">
+              <div class="traveler-bar">
+                <span class="step">STEP 05 · OCT 2026 - PRESENT</span>
+                <span>WEST LAFAYETTE, IN · IN PROCESS</span>
               </div>
-            </div>
-            <ul class="bullets">
-              <li>Support semiconductor fabrication operations for Microsoft Quantum at Purdue.</li>
-              <li>Work across photolithography, thin-film and atomic layer deposition, etching and metrology in a cleanroom.</li>
-            </ul>
-            <ul>
-              <li>Photolithography</li>
-              <li>Thin Film Deposition</li>
-              <li>Atomic Layer Deposition</li>
-              <li>Etching</li>
-              <li>Metrology</li>
-              <li>Clean Rooms</li>
-              <li>Microfabrication</li>
-            </ul>
-          </article>
-          <article class="card project-card">
-            <div class="card-head">
-              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=purdue.edu&sz=128" alt="Purdue University logo" loading="lazy" onerror="this.remove()" />
-              <div>
-                <h3>Research Assistant, Procter &amp; Gamble R&amp;D Collaboration</h3>
-                <p class="project-meta"><strong>Purdue University</strong> · Jan 2025 - Jan 2026</p>
+              <div class="traveler-body">
+                <div class="card-head">
+                  <img class="org-logo" src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=128" alt="Microsoft logo" loading="lazy" onerror="this.remove()" />
+                  <div>
+                    <h3>Quantum Nanofabrication Engineer</h3>
+                    <p class="org">Microsoft Quantum · Contract through Kforce Inc.</p>
+                  </div>
+                </div>
+                <ul class="bullets">
+                  <li>Support semiconductor fabrication operations for Microsoft Quantum at Purdue.</li>
+                  <li>Work across photolithography, thin-film and atomic layer deposition, etching and metrology in a cleanroom.</li>
+                </ul>
+                <dl class="tools-row"><dt>Tools</dt><dd>Photolithography / Thin-film deposition / ALD / Etching / Metrology / Cleanroom</dd></dl>
               </div>
-            </div>
-            <ul class="bullets">
-              <li>Studied polymer-induced phase transitions in microfibrillated cellulose with rheology and AFM (11 nm) for P&amp;G consumer-care applications.</li>
-              <li>Automated data analysis in MATLAB, saving about 2 hours per analysis cycle.</li>
-            </ul>
-            <ul>
-              <li>Rheology</li>
-              <li>Atomic Force Microscopy</li>
-              <li>Structure-Property Relationships</li>
-              <li>Formulation Science</li>
-              <li>Cross-functional Coordination</li>
-            </ul>
-          </article>
-          <article class="card project-card">
-            <div class="card-head">
-              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=iitkgp.ac.in&sz=128" alt="IIT Kharagpur logo" loading="lazy" onerror="this.remove()" />
-              <div>
-                <h3>Graduate Research Assistant</h3>
-                <p class="project-meta"><strong>Indian Institute of Technology, Kharagpur</strong> · Jan 2023 - May 2024</p>
+            </article>
+
+            <article class="traveler" id="exp-purdue">
+              <div class="traveler-bar">
+                <span class="step">STEP 04 · JAN 2025 - JAN 2026</span>
+                <span>WEST LAFAYETTE, IN · COMPLETE</span>
               </div>
-            </div>
-            <ul class="bullets">
-              <li>Built a paper-based microfluidic device for blood plasma separation and glucose/protein detection, cutting separation cycle time by 88%.</li>
-              <li>Co-authored an ACS <em>Analytical Chemistry</em> paper on the device, which reached &ge;90% diagnostic accuracy.</li>
-            </ul>
-            <ul>
-              <li>Microfluidics</li>
-              <li>Root Cause Analysis</li>
-              <li>Design of Experiments (DOE)</li>
-              <li>Point-of-Care Diagnostics</li>
-              <li>Colorimetric Assays</li>
-            </ul>
-          </article>
-          <article class="card project-card">
-            <div class="card-head">
-              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=iisc.ac.in&sz=128" alt="Indian Institute of Science logo" loading="lazy" onerror="this.remove()" />
-              <div>
-                <h3>Summer Intern</h3>
-                <p class="project-meta"><strong>Centre for Nano Science and Engineering (CeNSE), IISc Bangalore</strong> · May 2023 - Aug 2023</p>
+              <div class="traveler-body">
+                <div class="card-head">
+                  <img class="org-logo" src="https://www.google.com/s2/favicons?domain=purdue.edu&sz=128" alt="Purdue University logo" loading="lazy" onerror="this.remove()" />
+                  <div>
+                    <h3>Research Assistant, Procter &amp; Gamble R&amp;D Collaboration</h3>
+                    <p class="org">Purdue University</p>
+                  </div>
+                </div>
+                <ul class="bullets">
+                  <li>Studied polymer-induced phase transitions in microfibrillated cellulose with rheology and AFM (11 nm) for P&amp;G consumer-care applications.</li>
+                  <li>Automated data analysis in MATLAB, saving about 2 hours per analysis cycle.</li>
+                </ul>
+                <dl class="tools-row"><dt>Tools</dt><dd>AFM / Rheometry / MATLAB / DOE</dd></dl>
               </div>
-            </div>
-            <ul class="bullets">
-              <li>Developed a microfluidic platform that mimics vascular microenvironments to study breast cancer cell viability under flow.</li>
-              <li>Analyzed differences in cell survival under controlled flow conditions.</li>
-            </ul>
-            <ul>
-              <li>Microfluidics</li>
-              <li>Thin Film Deposition</li>
-              <li>Cell Culture</li>
-              <li>COMSOL Multiphysics</li>
-            </ul>
-          </article>
-          <article class="card project-card">
-            <div class="card-head">
-              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=ucla.edu&sz=128" alt="UCLA logo" loading="lazy" onerror="this.remove()" />
-              <div>
-                <h3>Research Intern</h3>
-                <p class="project-meta"><strong>University of California, Los Angeles</strong> · Jun 2021 - Jan 2022</p>
+            </article>
+
+            <article class="traveler" id="exp-iisc">
+              <div class="traveler-bar">
+                <span class="step">STEP 03 · MAY 2023 - AUG 2023</span>
+                <span>BENGALURU, INDIA · COMPLETE</span>
               </div>
-            </div>
-            <ul class="bullets">
-              <li>Designed and simulated a heated droplet microreactor in COMSOL to reduce solvent evaporation.</li>
-              <li>Identified thermal gradients as the main cause of a 27% solvent loss and optimized the thermal design.</li>
-            </ul>
-            <ul>
-              <li>COMSOL Multiphysics</li>
-              <li>Computational Fluid Dynamics</li>
-              <li>Heat &amp; Mass Transfer</li>
-              <li>Microreactors</li>
-              <li>SolidWorks</li>
-            </ul>
-          </article>
+              <div class="traveler-body">
+                <div class="card-head">
+                  <img class="org-logo" src="https://www.google.com/s2/favicons?domain=iisc.ac.in&sz=128" alt="Indian Institute of Science logo" loading="lazy" onerror="this.remove()" />
+                  <div>
+                    <h3>Summer Intern</h3>
+                    <p class="org">Centre for Nano Science and Engineering (CeNSE), IISc Bangalore</p>
+                  </div>
+                </div>
+                <ul class="bullets">
+                  <li>Developed a microfluidic platform that mimics vascular microenvironments to study breast cancer cell viability under flow.</li>
+                  <li>Analyzed differences in cell survival under controlled flow conditions.</li>
+                </ul>
+                <dl class="tools-row"><dt>Tools</dt><dd>Microfluidics / Thin-film deposition / Cell culture / COMSOL</dd></dl>
+              </div>
+            </article>
+
+            <article class="traveler" id="exp-iit">
+              <div class="traveler-bar">
+                <span class="step">STEP 02 · JAN 2023 - MAY 2024</span>
+                <span>KHARAGPUR, INDIA · COMPLETE</span>
+              </div>
+              <div class="traveler-body">
+                <div class="card-head">
+                  <img class="org-logo" src="https://www.google.com/s2/favicons?domain=iitkgp.ac.in&sz=128" alt="IIT Kharagpur logo" loading="lazy" onerror="this.remove()" />
+                  <div>
+                    <h3>Graduate Research Assistant</h3>
+                    <p class="org">Indian Institute of Technology, Kharagpur</p>
+                  </div>
+                </div>
+                <ul class="bullets">
+                  <li>Built a paper-based microfluidic device for blood plasma separation and glucose/protein detection, cutting separation cycle time by 88%.</li>
+                  <li>Co-authored an ACS <em>Analytical Chemistry</em> paper on the device, which reached &ge;90% diagnostic accuracy.</li>
+                </ul>
+                <dl class="tools-row"><dt>Tools</dt><dd>Microfluidics / SEM / Root cause analysis / DOE / Colorimetric assays</dd></dl>
+              </div>
+            </article>
+
+            <article class="traveler" id="exp-ucla">
+              <div class="traveler-bar">
+                <span class="step">STEP 01 · JUN 2021 - JAN 2022</span>
+                <span>LOS ANGELES, CA · COMPLETE</span>
+              </div>
+              <div class="traveler-body">
+                <div class="card-head">
+                  <img class="org-logo" src="https://www.google.com/s2/favicons?domain=ucla.edu&sz=128" alt="UCLA logo" loading="lazy" onerror="this.remove()" />
+                  <div>
+                    <h3>Research Intern</h3>
+                    <p class="org">University of California, Los Angeles</p>
+                  </div>
+                </div>
+                <ul class="bullets">
+                  <li>Designed and simulated a heated droplet microreactor in COMSOL to reduce solvent evaporation.</li>
+                  <li>Identified thermal gradients as the main cause of a 27% solvent loss and optimized the thermal design.</li>
+                </ul>
+                <dl class="tools-row"><dt>Tools</dt><dd>COMSOL / CFD / Heat &amp; mass transfer / SolidWorks</dd></dl>
+              </div>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section id="education" class="section reveal">
-        <div class="section-head">
-          <p class="eyebrow">Education</p>
-          <h2>Education</h2>
+      <!-- ============================== TOOLS ============================== -->
+      <section id="skills" class="section reveal">
+        <p class="eyebrow">Skills</p>
+        <h2>Tools &amp; techniques</h2>
+        <div class="table-wrap">
+          <table class="tools-table">
+            <thead>
+              <tr><th>Tool / technique</th><th>What I used it for</th><th>Where</th></tr>
+            </thead>
+            <tbody>
+              <tr class="group"><td colspan="3">Lithography</td></tr>
+              <tr><td>E-beam lithography</td><td>Patterning Hall bar devices; tuning exposure with dose-matrix experiments</td><td>Microsoft Quantum</td></tr>
+              <tr><td>Photolithography, spin coating</td><td>Patterning microfluidic devices with features down to 10 µm</td><td>CeNSE, IISc</td></tr>
+
+              <tr class="group"><td colspan="3">Deposition</td></tr>
+              <tr><td>Thin-film deposition (e-beam evaporation)</td><td>Depositing films for Hall bar devices</td><td>Microsoft Quantum</td></tr>
+              <tr><td>DC sputtering (PVD)</td><td>Chromium films, 10-30 nm, with uniform thickness</td><td>CeNSE, IISc</td></tr>
+
+              <tr class="group"><td colspan="3">Pattern transfer &amp; cleaning</td></tr>
+              <tr><td>Solvent liftoff, resist stripping</td><td>Metal patterning and resist removal for Hall bar devices</td><td>Microsoft Quantum</td></tr>
+              <tr><td>Wet chemical cleaning</td><td>Sample cleaning between fabrication steps</td><td>Microsoft Quantum</td></tr>
+
+              <tr class="group"><td colspan="3">Metrology &amp; characterization</td></tr>
+              <tr><td>Atomic force microscopy (AFM)</td><td>Surface morphology, defect checks and e-beam dose analysis</td><td>Microsoft Quantum, Purdue</td></tr>
+              <tr><td>Ellipsometry, profilometry</td><td>Film and surface checks to find fabrication defects</td><td>Microsoft Quantum</td></tr>
+              <tr><td>Scanning electron microscopy (SEM)</td><td>Substrate morphology; chose an 11 µm pore size for plasma transport</td><td>IIT Kharagpur</td></tr>
+              <tr><td>Rheometry</td><td>Viscoelastic properties of cellulose formulations</td><td>Purdue</td></tr>
+
+              <tr class="group"><td colspan="3">Methods &amp; software</td></tr>
+              <tr><td>Design of experiments (DOE)</td><td>Cut experimental workload by 50%</td><td>Purdue</td></tr>
+              <tr><td>COMSOL, ANSYS Fluent</td><td>Microreactor heat transfer and two-phase flow models</td><td>UCLA, academic projects</td></tr>
+              <tr><td>Python, MATLAB</td><td>Automated data analysis, saving about 2 hours per cycle</td><td>Purdue</td></tr>
+            </tbody>
+          </table>
         </div>
-        <div class="project-list">
-          <article class="card project-card">
+        <div class="also">
+          <h3>Also</h3>
+          <div class="chip-grid">
+            <span>Atomic Layer Deposition</span>
+            <span>Maskless Aligner</span>
+            <span>Etching</span>
+            <span>Optical Microscopy</span>
+            <span>Wafer Handling</span>
+            <span>Cleanroom</span>
+            <span>Root Cause Analysis</span>
+            <span>Process Optimization</span>
+            <span>Statistical Data Analysis</span>
+            <span>Technical Documentation</span>
+            <span>Quantum Computing</span>
+            <span>Quantum Chemistry</span>
+            <span>C++</span>
+            <span>Aspen Plus</span>
+            <span>SolidWorks</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================== EDUCATION ============================== -->
+      <section id="education" class="section reveal">
+        <p class="eyebrow">Education</p>
+        <h2>Education</h2>
+        <div class="edu-list">
+          <article class="card">
             <div class="card-head">
               <img class="org-logo" src="https://www.google.com/s2/favicons?domain=purdue.edu&sz=128" alt="Purdue University logo" loading="lazy" onerror="this.remove()" />
               <div>
                 <h3>Master of Science (M.S.), Chemical Engineering</h3>
-                <p class="project-meta"><strong>Purdue University, West Lafayette</strong> · Aug 2024 - May 2026</p>
+                <p class="meta">Purdue University, West Lafayette · Aug 2024 - May 2026</p>
               </div>
             </div>
           </article>
-          <article class="card project-card">
+          <article class="card">
             <div class="card-head">
               <img class="org-logo" src="assets/iitkgp-logo.png" alt="IIT Kharagpur logo" loading="lazy" onerror="this.remove()" />
               <div>
                 <h3>Master of Technology (M.Tech.), Chemical Engineering</h3>
-                <p class="project-meta"><strong>Indian Institute of Technology (IIT) Kharagpur</strong> · Aug 2022 - Jun 2024</p>
+                <p class="meta">Indian Institute of Technology (IIT) Kharagpur · Aug 2022 - Jun 2024</p>
               </div>
             </div>
           </article>
-          <article class="card project-card">
+          <article class="card">
             <div class="card-head">
               <img class="org-logo" src="https://www.google.com/s2/favicons?domain=bits-pilani.ac.in&sz=128" alt="BITS Pilani logo" loading="lazy" onerror="this.remove()" />
               <div>
                 <h3>Bachelor of Engineering (B.E.), Chemical Engineering</h3>
-                <p class="project-meta"><strong>Birla Institute of Technology and Science (BITS) Pilani, Hyderabad Campus</strong> · Aug 2018 - May 2022</p>
+                <p class="meta">Birla Institute of Technology and Science (BITS) Pilani, Hyderabad Campus · Aug 2018 - May 2022</p>
               </div>
             </div>
           </article>
         </div>
       </section>
 
+      <!-- ============================== PUBLICATIONS ============================== -->
+      <section id="publications" class="section reveal">
+        <p class="eyebrow">Research</p>
+        <h2>Publications</h2>
+        <article class="card publication">
+          <h3>Paper-Droplet Hybrid Strategy for Highly Selective Blood Plasma Separation in Multiplex Diagnostics</h3>
+          <p class="meta">Amaan Dash, <strong>Rajeev Srikar Medicharla</strong> and Sunando DasGupta · <em>Analytical Chemistry</em> (ACS) · 2025</p>
+          <p>
+            A paper-based microfluidic platform for selective blood plasma separation, used for multiplex diagnostic
+            analysis at the point of care.
+          </p>
+          <ul class="tags">
+            <li>Microfluidics</li>
+            <li>Diagnostics</li>
+            <li>Analytical Chemistry</li>
+            <li>Peer reviewed</li>
+          </ul>
+          <a
+            class="link"
+            href="https://pubs.acs.org/doi/pdf/10.1021/acs.analchem.5c03496?ref=article_openPDF"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Read paper (ACS) →</a>
+        </article>
+      </section>
+
+      <!-- ============================== ACADEMIC PROJECTS ============================== -->
       <section id="academic-projects" class="section reveal">
-        <div class="section-head">
-          <p class="eyebrow">Selected work</p>
-          <h2>Academic Projects</h2>
-        </div>
+        <p class="eyebrow">Selected work</p>
+        <h2>Academic Projects</h2>
         <div class="cards">
           <article class="card">
             <h3>Two-Phase Flow Modeling in Microfluidic Systems</h3>
@@ -245,101 +385,61 @@
               Modeled two-phase flow regimes in ANSYS Fluent to understand flow stability limits and defect formation
               mechanisms, then validated against literature benchmarks with 94.5% accuracy.
             </p>
-            <ul>
+            <ul class="tags">
               <li>ANSYS Fluent</li>
-              <li>Two-Phase Flow</li>
-              <li>Model Validation</li>
               <li>CFD</li>
-              <li>Microfluidics</li>
+              <li>Two-phase flow</li>
+              <li>Model validation</li>
             </ul>
-            <!-- <a href="#" aria-label="Two-Phase Flow Modeling project">View details</a> -->
           </article>
           <article class="card">
             <h3>Design and Optimization of T-Shaped Micromixers</h3>
             <p>
-              Engineered and simulated diamond cross-section T-shaped micromixers using COMSOL to study the effect of geometry 
-              and Reynolds number on mixing performance, achieving up to 99% efficiency.
+              Simulated diamond cross-section T-shaped micromixers in COMSOL to study how geometry and Reynolds number
+              affect mixing, reaching up to 99% mixing efficiency.
             </p>
-            <ul>
-              <li>Micromixer</li>
-              <li>COMSOL Multiphysics</li>
-              <li>Finite Element Method</li>
-              <li>Simulation</li>
+            <ul class="tags">
+              <li>COMSOL</li>
+              <li>Finite element method</li>
+              <li>Micromixers</li>
             </ul>
-            <!-- <a href="#" aria-label="Droplet Microreactor analysis project">View details</a> -->
           </article>
           <article class="card">
             <h3>Paper-Based Microfluidic Fuel Cell</h3>
             <p>
-              Fabricated a miniaturized membraneless fuel cell using paper-based microfluidic
-              architecture; studied voltage-current behavior and identified parameter conditions for better power output.
+              Fabricated a miniaturized membraneless fuel cell with a paper-based microfluidic architecture; studied
+              voltage-current behavior and identified conditions for higher power output.
             </p>
-            <ul>
+            <ul class="tags">
               <li>Microfluidics</li>
-              <li>Fuel Cell</li>
-              <li>Bioelectrochemistry</li>
-              <li>Experimental Design</li>
+              <li>Fuel cells</li>
+              <li>Experimental design</li>
             </ul>
-            <!-- <a href="#" aria-label="Paper-Based Fuel Cell project">View details</a> -->
           </article>
         </div>
       </section>
 
-      <section id="publications" class="section reveal">
-        <div class="section-head">
-          <p class="eyebrow">Research</p>
-          <h2>Publications</h2>
-        </div>
-        <div class="featured-publication">
-          <article class="card">
-            <h3>Paper-Droplet Hybrid Strategy for Highly Selective Blood Plasma Separation in Multiplex Diagnostics</h3>
-            <p class="pub-meta"> Amaan Dash, <strong>Rajeev Srikar Medicharla</strong>, and Sunando DasGupta · <em>ACS Analytical Chemistry</em> · 2025 </p>
-            <p>
-              Developed a microfluidic paper-based platform for selective blood plasma separation, enabling multiplex diagnostic analysis. 
-              This work integrates fluid dynamics, material design, and analytical techniques to improve accuracy and efficiency in 
-              point-of-care diagnostics.
-            </p>
-            <ul>
-              <li>Microfluidics</li>
-              <li>Diagnostics</li>
-              <li>Analytical Chemistry</li>
-              <li>Biomaterials</li>
-              <li>Peer Reviewed</li>
-            </ul>
-            <a
-              href="https://pubs.acs.org/doi/pdf/10.1021/acs.analchem.5c03496?ref=article_openPDF"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Read ACS Analytical Chemistry paper"
-            >
-              Read paper (ACS)
-            </a>
-          </article>
-        </div>
-      </section>
-
+      <!-- ============================== CERTIFICATIONS & AWARDS ============================== -->
       <section id="certifications" class="section reveal">
-        <div class="section-head">
-          <p class="eyebrow">Recognition</p>
-          <h2>Certifications &amp; Awards</h2>
-        </div>
+        <p class="eyebrow">Recognition</p>
+        <h2>Certifications &amp; Awards</h2>
         <div class="cards">
           <article class="card">
             <div class="card-head">
               <img class="org-logo" src="https://www.google.com/s2/favicons?domain=intel.com&sz=128" alt="Intel logo" loading="lazy" onerror="this.remove()" />
               <div>
                 <h3>Semiconductor Fabrication 101</h3>
-                <p class="project-meta"><strong>Intel</strong> · Issued Jul 2026 · Credential ID 471910614391</p>
+                <p class="meta">Intel · Jul 2026</p>
               </div>
             </div>
-            <p>Certificate for the Semiconductor Fabrication 101 course sponsored by Purdue University, the University of Texas at Austin and Intel Corporation.</p>
+            <p>Course sponsored by Purdue University, the University of Texas at Austin and Intel Corporation. Credential ID 471910614391.</p>
           </article>
           <article class="card">
             <div class="card-head">
               <img class="org-logo" src="https://www.google.com/s2/favicons?domain=purdue.edu&sz=128" alt="Purdue University logo" loading="lazy" onerror="this.remove()" />
               <div>
                 <h3>Graduate Research Assistantship</h3>
-                <p class="project-meta"><strong>Davidson School of Chemical Engineering, Purdue University</strong> · Aug 2024</p>
+                <p class="meta">Davidson School of Chemical Engineering, Purdue · Aug 2024</p>
               </div>
             </div>
             <p>Fully funded assistantship with full tuition remission ($40,000/year) and departmental scholarship support.</p>
@@ -349,101 +449,33 @@
               <img class="org-logo" src="https://www.google.com/s2/favicons?domain=iisc.ac.in&sz=128" alt="Indian Institute of Science logo" loading="lazy" onerror="this.remove()" />
               <div>
                 <h3>CeNSE Summer Internship Award</h3>
-                <p class="project-meta"><strong>Indian Institute of Science (IISc)</strong> · May 2023</p>
+                <p class="meta">Indian Institute of Science (IISc) · May 2023</p>
               </div>
             </div>
-            <p>Competitive research scholarship for the Summer Research Program at the Centre for Nano Science and Engineering (CeNSE).</p>
+            <p>Competitive research scholarship for the Summer Research Program at the Centre for Nano Science and Engineering.</p>
           </article>
         </div>
       </section>
 
-      <section id="skills" class="section reveal">
-        <div class="section-head">
-          <p class="eyebrow">Skills</p>
-          <h2>Core stack</h2>
-        </div>
-        <div class="skill-groups">
-          <div class="skill-group">
-            <h3>Fabrication &amp; cleanroom</h3>
-            <div class="chip-grid">
-              <span>Nanofabrication</span>
-              <span>Microfabrication</span>
-              <span>Photolithography</span>
-              <span>E-Beam Lithography</span>
-              <span>Maskless Aligner</span>
-              <span>Spin Coating</span>
-              <span>Thin Film Deposition</span>
-              <span>E-Beam Evaporation</span>
-              <span>Atomic Layer Deposition</span>
-              <span>Etching</span>
-              <span>Solvent Liftoff</span>
-              <span>Resist Stripping</span>
-              <span>Clean Rooms</span>
-              <span>Semiconductor Engineering</span>
-            </div>
-          </div>
-          <div class="skill-group">
-            <h3>Characterization &amp; metrology</h3>
-            <div class="chip-grid">
-              <span>Metrology</span>
-              <span>Scanning Electron Microscopy (SEM)</span>
-              <span>Atomic Force Microscopy (AFM)</span>
-              <span>Profilometry</span>
-              <span>Ellipsometry</span>
-              <span>Rheological Characterization</span>
-            </div>
-          </div>
-          <div class="skill-group">
-            <h3>Process &amp; analysis</h3>
-            <div class="chip-grid">
-              <span>Process Engineering</span>
-              <span>Process Development</span>
-              <span>Design of Experiments (DOE)</span>
-              <span>Root Cause Analysis</span>
-              <span>Statistical Data Analysis</span>
-              <span>Computational Modeling</span>
-              <span>Cross-functional Coordination</span>
-            </div>
-          </div>
-          <div class="skill-group">
-            <h3>Quantum</h3>
-            <div class="chip-grid">
-              <span>Quantum Computing</span>
-              <span>Quantum Chemistry</span>
-            </div>
-          </div>
-          <div class="skill-group">
-            <h3>Software</h3>
-            <div class="chip-grid">
-              <span>Python</span>
-              <span>MATLAB</span>
-              <span>C++</span>
-              <span>COMSOL Multiphysics</span>
-              <span>ANSYS</span>
-              <span>Aspen Plus</span>
-              <span>SolidWorks</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      <!-- ============================== CONTACT ============================== -->
       <section id="contact" class="section contact reveal">
         <p class="eyebrow">Contact</p>
         <h2>Get in touch.</h2>
         <p>Happy to talk about nanofabrication, process development, or research collaborations.</p>
+        <a class="contact-email" href="mailto:rajivsrikar2001@gmail.com">rajivsrikar2001@gmail.com</a>
         <div class="hero-actions">
           <a class="btn btn-primary" href="mailto:rajivsrikar2001@gmail.com">Email me</a>
-          <a class="btn btn-ghost" href="Rajeev_Medicharla_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
-          <a class="btn btn-ghost" href="https://linkedin.com/in/rajeev-srikar" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a class="btn btn-ghost" href="tel:+17657725764">Call</a>
+          <a class="btn btn-yellow" href="Rajeev_Medicharla_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+          <a class="btn" href="https://linkedin.com/in/rajeev-srikar" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="btn" href="tel:+17657725764">Call</a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>© <span id="year"></span> Rajeev Srikar Medicharla</p>
+      <p>© <span id="year"></span> Rajeev Srikar Medicharla · West Lafayette, Indiana</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=2"></script>
   </body>
 </html>
