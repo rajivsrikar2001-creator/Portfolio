@@ -477,3 +477,40 @@ h2 {
 .card-head h3 {
   margin: 0;
 }
+
+/* Experience details */
+.project-name {
+  font-weight: 700;
+  color: var(--ink) !important;
+  margin: 0.8rem 0 0;
+}
+
+.card ul.bullets {
+  display: block;
+  list-style: disc;
+  padding-left: 1.2rem;
+  margin: 0.2rem 0 0.8rem;
+  color: var(--muted);
+}
+
+.card ul.bullets li {
+  border: none;
+  border-radius: 0;
+  padding: 0.15rem 0;
+  font-size: 0.95rem;
+}
+
+.cards .card-head h3 {
+  font-size: 1.15rem;
+}
+
+/* Grouped skills */
+.skill-groups {
+  display: grid;
+  gap: 1.4rem;
+}
+
+.skill-group h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.6rem;
+}

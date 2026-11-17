@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=2" />
+    <link rel="stylesheet" href="styles.css?v=3" />
   </head>
   <body>
     <div class="ambient ambient-a" aria-hidden="true"></div>
@@ -25,7 +25,8 @@
       <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">Menu</button>
       <nav class="site-nav" id="site-nav">
         <a href="#about">About</a>
-        <a href="#work">Work</a>
+        <a href="#work">Experience</a>
+        <a href="#education">Education</a>
         <a href="#publications">Publications</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
@@ -77,129 +78,173 @@
             problem in device fabrication too.
           </p>
         </div>
-        <div class="timeline">
-          <article class="has-logo">
-            <img class="org-logo" src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=128" alt="Microsoft logo" loading="lazy" onerror="this.remove()" />
-            <div>
-              <p class="timeline-year">2026</p>
-              <h3>Quantum Nanofabrication Engineer, Microsoft Quantum</h3>
-              <p>Semiconductor fabrication for Microsoft Quantum at Purdue (Oct 2026 - present, contract through Kforce).</p>
-            </div>
-          </article>
-          <article class="has-logo">
-            <img class="org-logo" src="https://www.google.com/s2/favicons?domain=purdue.edu&sz=128" alt="Purdue University logo" loading="lazy" onerror="this.remove()" />
-            <div>
-              <p class="timeline-year">2026</p>
-              <h3>M.S., Purdue University</h3>
-              <p>Chemical Engineering (Aug 2024 - May 2026), GPA: 3.5/4.0.</p>
-            </div>
-          </article>
-          <article class="has-logo">
-            <img class="org-logo" src="https://www.google.com/s2/favicons?domain=iitkgp.ac.in&sz=128" alt="IIT Kharagpur logo" loading="lazy" onerror="this.remove()" />
-            <div>
-              <p class="timeline-year">2024</p>
-              <h3>M.Tech., IIT Kharagpur</h3>
-              <p>Chemical Engineering (Aug 2022 - May 2024), CGPA: 9.66/10.</p>
-            </div>
-          </article>
-          <article class="has-logo">
-            <img class="org-logo" src="https://www.google.com/s2/favicons?domain=bits-pilani.ac.in&sz=128" alt="BITS Pilani logo" loading="lazy" onerror="this.remove()" />
-            <div>
-              <p class="timeline-year">2022</p>
-              <h3>B.E. BITS Pilani, Hyderabad Campus</h3>
-              <p>Chemical Engineering (Aug 2018 - May 2022), CGPA: 8.12/10.</p>
-            </div>
-          </article>
-        </div>
+        <aside class="profile-card">
+          <p class="stat-label">Currently</p>
+          <p class="stat-value">Quantum Nanofabrication Engineer, Microsoft Quantum</p>
+          <p class="stat-label">Location</p>
+          <p class="stat-value">West Lafayette, Indiana</p>
+          <p class="stat-label">Process areas</p>
+          <p class="stat-value">Photolithography, thin-film deposition, ALD, etching, metrology</p>
+        </aside>
       </section>
 
       <section id="work" class="section reveal">
         <div class="section-head">
           <p class="eyebrow">Work Experience</p>
-          <h2>Research Projects</h2>
+          <h2>Experience</h2>
+        </div>
+        <div class="project-list">
+          <article class="card project-card">
+            <div class="card-head">
+              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=128" alt="Microsoft logo" loading="lazy" onerror="this.remove()" />
+              <div>
+                <h3>Quantum Nanofabrication Engineer</h3>
+                <p class="project-meta"><strong>Microsoft Quantum</strong> · Contract through Kforce Inc. · Oct 2026 - Present · West Lafayette, Indiana</p>
+              </div>
+            </div>
+            <p>
+              Supporting Microsoft Quantum's semiconductor fabrication operations at Purdue.
+            </p>
+            <ul>
+              <li>Photolithography</li>
+              <li>Thin Film Deposition</li>
+              <li>Atomic Layer Deposition</li>
+              <li>Etching</li>
+              <li>Metrology</li>
+              <li>Clean Rooms</li>
+              <li>Microfabrication</li>
+            </ul>
+          </article>
+          <article class="card project-card">
+            <div class="card-head">
+              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=purdue.edu&sz=128" alt="Purdue University logo" loading="lazy" onerror="this.remove()" />
+              <div>
+                <h3>Research Assistant, Procter &amp; Gamble R&amp;D Collaboration</h3>
+                <p class="project-meta"><strong>Purdue University</strong> · Prof. Kelly Schultz · Jan 2025 - Jan 2026</p>
+              </div>
+            </div>
+            <p class="project-name">Project: Engineering microfibrillated cellulose as a molecular delivery vehicle</p>
+            <p>
+              Investigated polymer-induced phase transitions in microfibrillated cellulose using rheology and AFM to link
+              microstructure with viscoelastic properties, in collaboration with Procter &amp; Gamble for consumer-care applications.
+            </p>
+            <ul class="bullets">
+              <li>Characterized surface morphology using AFM (11 nm) and linked structural features to material performance.</li>
+              <li>Automated data analysis in MATLAB, saving about 2 hours per analysis cycle and speeding up formulation decisions.</li>
+            </ul>
+            <ul>
+              <li>Rheology</li>
+              <li>Atomic Force Microscopy</li>
+              <li>Structure-Property Relationships</li>
+              <li>Formulation Science</li>
+              <li>Cross-functional Coordination</li>
+            </ul>
+          </article>
+          <article class="card project-card">
+            <div class="card-head">
+              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=iitkgp.ac.in&sz=128" alt="IIT Kharagpur logo" loading="lazy" onerror="this.remove()" />
+              <div>
+                <h3>Graduate Research Assistant</h3>
+                <p class="project-meta"><strong>Indian Institute of Technology, Kharagpur</strong> · Prof. Sunando DasGupta · Jan 2023 - May 2024</p>
+              </div>
+            </div>
+            <p class="project-name">Project: Paper-based microfluidic device for total protein and glucose detection in blood</p>
+            <p>
+              Engineered a paper-based microfluidic diagnostic device for plasma separation and dual biomarker
+              detection, integrating device design and colorimetric assays for glucose and protein analysis.
+            </p>
+            <ul class="bullets">
+              <li>Reduced plasma-separation cycle time by 88% through a redesigned microfluidic process.</li>
+              <li>Co-authored a peer-reviewed ACS <em>Analytical Chemistry</em> paper on a microfluidic device with &ge;90% diagnostic accuracy.</li>
+            </ul>
+            <ul>
+              <li>Microfluidics</li>
+              <li>Root Cause Analysis</li>
+              <li>Design of Experiments (DOE)</li>
+              <li>Point-of-Care Diagnostics</li>
+              <li>Colorimetric Assays</li>
+            </ul>
+          </article>
+          <article class="card project-card">
+            <div class="card-head">
+              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=iisc.ac.in&sz=128" alt="Indian Institute of Science logo" loading="lazy" onerror="this.remove()" />
+              <div>
+                <h3>Summer Intern</h3>
+                <p class="project-meta"><strong>Centre for Nano Science and Engineering (CeNSE), IISc Bangalore</strong> · Dr. Gayathri Pillai · May 2023 - Aug 2023</p>
+              </div>
+            </div>
+            <p class="project-name">Project: Microfluidic platform to predict metastatic potential of breast cancer cells</p>
+            <p>
+              Developed a microfluidic platform to mimic vascular microenvironments and study cancer cell viability
+              under controlled flow conditions, enabling analysis of survival heterogeneity.
+            </p>
+            <ul>
+              <li>Microfluidics</li>
+              <li>Thin Film Deposition</li>
+              <li>Cell Culture</li>
+              <li>COMSOL Multiphysics</li>
+            </ul>
+          </article>
+          <article class="card project-card">
+            <div class="card-head">
+              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=ucla.edu&sz=128" alt="UCLA logo" loading="lazy" onerror="this.remove()" />
+              <div>
+                <h3>Research Intern</h3>
+                <p class="project-meta"><strong>University of California, Los Angeles</strong> · Prof. Michael van Dam · Jun 2021 - Jan 2022</p>
+              </div>
+            </div>
+            <p class="project-name">Project: Mitigation of solvent evaporation in droplet microreactors via thermal design optimization</p>
+            <p>
+              Designed and simulated a heated droplet microreactor using COMSOL to mitigate solvent evaporation and
+              improve reaction stability through thermal optimization.
+            </p>
+            <ul>
+              <li>COMSOL Multiphysics</li>
+              <li>Computational Fluid Dynamics</li>
+              <li>Heat &amp; Mass Transfer</li>
+              <li>Microreactors</li>
+              <li>SolidWorks</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="education" class="section reveal">
+        <div class="section-head">
+          <p class="eyebrow">Education</p>
+          <h2>Education</h2>
         </div>
         <div class="project-list">
           <article class="card project-card">
             <div class="card-head">
               <img class="org-logo" src="https://www.google.com/s2/favicons?domain=purdue.edu&sz=128" alt="Purdue University logo" loading="lazy" onerror="this.remove()" />
               <div>
-                <h3>Engineering microfibrillated cellulose as a molecular delivery vehicle</h3>
-                <p class="project-meta"> <strong>Purdue University</strong> · Prof. Kelly Schultz · Jan 2025 - Jan 2026 </p>
+                <h3>Master of Science (M.S.), Chemical Engineering</h3>
+                <p class="project-meta"><strong>Purdue University, West Lafayette</strong> · Aug 2024 - May 2026</p>
               </div>
             </div>
-            <p>
-              Investigated polymer-induced phase transitions in microfibrillated cellulose using rheology and AFM to link 
-              microstructure with viscoelastic properties, in collaboration with Procter & Gamble for consumer-care applications.
-            </p>
-            <ul>
-              <li>Rheology</li>
-              <li>Structure-Property Relationships</li>
-              <li>Atomic Force Microscopy</li>
-              <li>Formulation Science</li>
-            </ul>
-            <!-- <a href="#" aria-label="Two-Phase Flow Modeling project">View details</a> -->
           </article>
           <article class="card project-card">
             <div class="card-head">
-              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=iitkgp.ac.in&sz=128" alt="Indian Institute of Technology, Kharagpur logo" loading="lazy" onerror="this.remove()" />
+              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=iitkgp.ac.in&sz=128" alt="IIT Kharagpur logo" loading="lazy" onerror="this.remove()" />
               <div>
-                <h3>Paper-based microfluidic device for total protein and glucose detection in blood </h3>
-                <p class="project-meta"> <strong>Indian Institute of Technology, Kharagpur </strong> · Prof. Sunando DasGupta · Jan 2023 - May 2024 </p>
+                <h3>Master of Technology (M.Tech.), Chemical Engineering</h3>
+                <p class="project-meta"><strong>Indian Institute of Technology (IIT) Kharagpur</strong> · Aug 2022 - Jun 2024</p>
               </div>
             </div>
-            <p>
-              Engineered a paper-based microfluidic diagnostic device for plasma separation and dual biomarker 
-              detection, integrating device design and colorimetric assays for glucose and protein analysis.
-            </p>
-            <ul>
-              <li>Microfluidics</li>
-              <li>Point-of-Care Diagnostics,</li>
-              <li>Biomarker Detection</li>
-              <li>Colorimetric Assays</li>
-              <li>Biosensors</li>
+            <ul class="bullets">
+              <li>Coursework in thin-film deposition, semiconductor fundamentals and process optimization.</li>
+              <li>Co-authored a peer-reviewed ACS <em>Analytical Chemistry</em> (2025) paper on a microfluidic blood diagnostics device.</li>
             </ul>
-            <!-- <a href="#" aria-label="Paper-Based Fuel Cell project">View details</a> -->
           </article>
           <article class="card project-card">
             <div class="card-head">
-              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=iisc.ac.in&sz=128" alt="Indian Institute of Science, Bangalore logo" loading="lazy" onerror="this.remove()" />
+              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=bits-pilani.ac.in&sz=128" alt="BITS Pilani logo" loading="lazy" onerror="this.remove()" />
               <div>
-                <h3>Microfluidic-based platform to predict metastatic potential for breast cancer cells </h3>
-                <p class="project-meta"> <strong>Indian Institute of Science, Bangalore </strong> · Dr. Gayathri Pillai · May 2023 - Aug 2023 </p>
+                <h3>Bachelor of Engineering (B.E.), Chemical Engineering</h3>
+                <p class="project-meta"><strong>Birla Institute of Technology and Science (BITS) Pilani, Hyderabad Campus</strong> · Aug 2018 - May 2022</p>
               </div>
             </div>
-            <p>
-              Developed a microfluidic platform to mimic vascular microenvironments and study cancer cell viability 
-              under controlled flow conditions, enabling analysis of survival heterogeneity.
-            </p>
-            <ul>
-              <li>Microfluidics</li>
-              <li>Cancer Biology</li>
-              <li>Cell Viability</li>
-              <li>Cell Culture</li>
-              <li>COMSOL Multiphysics</li>
-            </ul>
-            <!-- <a href="#" aria-label="Paper-Based Fuel Cell project">View details</a> -->
-          </article>
-          <article class="card project-card">
-            <div class="card-head">
-              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=ucla.edu&sz=128" alt="University of California, Los Angeles logo" loading="lazy" onerror="this.remove()" />
-              <div>
-                <h3>Mitigation of Solvent Evaporation in Droplet Microreactors via Thermal Design Optimization</h3>
-                <p class="project-meta"> <strong>University of California, Los Angeles</strong> · Prof. Michael van Dam · Jan 2021 - Jan 2022 </p>
-              </div>
-            </div>
-            <p>
-              Designed and simulated a heated droplet microreactor using COMSOL to mitigate solvent evaporation and 
-              improve reaction stability through thermal optimization.
-            </p>
-            <ul>
-              <li>COMSOL Multiphysics</li>
-              <li>Heat & Mass Transfer</li>
-              <li>Microreactor</li>
-              <li>Solid Works</li>
-            </ul>
-            <!-- <a href="#" aria-label="Two-Phase Flow Modeling project">View details</a> -->
           </article>
         </div>
       </section>
@@ -289,24 +334,101 @@
         </div>
       </section>
 
-      <section id="skills" class="section split reveal">
-        <div>
+      <section id="certifications" class="section reveal">
+        <div class="section-head">
+          <p class="eyebrow">Recognition</p>
+          <h2>Certifications &amp; Awards</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=intel.com&sz=128" alt="Intel logo" loading="lazy" onerror="this.remove()" />
+              <div>
+                <h3>Semiconductor Fabrication 101</h3>
+                <p class="project-meta"><strong>Intel</strong> · Issued Jul 2026 · Credential ID 471910614391</p>
+              </div>
+            </div>
+            <p>Certificate for the Semiconductor Fabrication 101 course sponsored by Purdue University, the University of Texas at Austin and Intel Corporation.</p>
+          </article>
+          <article class="card">
+            <div class="card-head">
+              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=purdue.edu&sz=128" alt="Purdue University logo" loading="lazy" onerror="this.remove()" />
+              <div>
+                <h3>Graduate Research Assistantship</h3>
+                <p class="project-meta"><strong>Davidson School of Chemical Engineering, Purdue University</strong> · Aug 2024</p>
+              </div>
+            </div>
+            <p>Fully funded assistantship with full tuition remission ($40,000/year) and departmental scholarship support.</p>
+          </article>
+          <article class="card">
+            <div class="card-head">
+              <img class="org-logo" src="https://www.google.com/s2/favicons?domain=iisc.ac.in&sz=128" alt="Indian Institute of Science logo" loading="lazy" onerror="this.remove()" />
+              <div>
+                <h3>CeNSE Summer Internship Award</h3>
+                <p class="project-meta"><strong>Indian Institute of Science (IISc)</strong> · May 2023</p>
+              </div>
+            </div>
+            <p>Competitive research scholarship for the Summer Research Program at the Centre for Nano Science and Engineering (CeNSE).</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section reveal">
+        <div class="section-head">
           <p class="eyebrow">Skills</p>
           <h2>Core stack</h2>
-          <div class="chip-grid">
-            <span>Photolithography</span>
-            <span>Thin Film Deposition</span>
-            <span>Process Development</span>
-            <span>Experimental Design</span>
-            <span>Rheological Characterization</span>
-            <span>Atomic Force Microscopy</span>
-            <span>Python</span>
-            <span>MATLAB</span>
-            <span>C++</span>
-            <span>COMSOL Multiphysics</span>
-            <span>ANSYS</span>
-            <span>Aspen Plus</span>
-            <span>Solidworks</span>
+        </div>
+        <div class="skill-groups">
+          <div class="skill-group">
+            <h3>Fabrication &amp; cleanroom</h3>
+            <div class="chip-grid">
+              <span>Photolithography</span>
+              <span>Thin Film Deposition</span>
+              <span>Atomic Layer Deposition</span>
+              <span>Etching</span>
+              <span>Microfabrication</span>
+              <span>Clean Rooms</span>
+              <span>Semiconductor Engineering</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Characterization &amp; metrology</h3>
+            <div class="chip-grid">
+              <span>Metrology</span>
+              <span>Atomic Force Microscopy (AFM)</span>
+              <span>Rheological Characterization</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Process &amp; analysis</h3>
+            <div class="chip-grid">
+              <span>Process Engineering</span>
+              <span>Process Development</span>
+              <span>Design of Experiments (DOE)</span>
+              <span>Root Cause Analysis</span>
+              <span>Statistical Data Analysis</span>
+              <span>Computational Modeling</span>
+              <span>Cross-functional Coordination</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Quantum</h3>
+            <div class="chip-grid">
+              <span>Quantum Computing</span>
+              <span>Quantum Chemistry</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Software</h3>
+            <div class="chip-grid">
+              <span>Python</span>
+              <span>MATLAB</span>
+              <span>C++</span>
+              <span>COMSOL Multiphysics</span>
+              <span>ANSYS</span>
+              <span>Aspen Plus</span>
+              <span>SolidWorks</span>
+            </div>
           </div>
         </div>
       </section>
